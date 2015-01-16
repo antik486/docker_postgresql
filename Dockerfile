@@ -22,9 +22,6 @@
 FROM centos:centos7
 MAINTAINER antik486 <antik486@gmail.com>
 
-ENV http_proxy http_proxy=http://10.1.202.135:3128/
-ENV https_proxy https_proxy=http://10.1.202.135:3128/
-
 RUN yum -y update
 RUN yum -y install http://yum.postgresql.org/9.4/redhat/rhel-7-x86_64/pgdg-redhat94-9.4-1.noarch.rpm
 RUN yum -y install postgresql94-server postgresql94-contrib

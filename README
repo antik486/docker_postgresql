@@ -1,2 +1,8 @@
 docker build --no-cache -t antik486/postgresql .
 docker run -i -t antik486/postgresql
+
+
+host: 192.168.59.104
+port: 5432
+usr: docker
+pass: docker
